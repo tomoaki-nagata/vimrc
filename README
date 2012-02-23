@@ -63,3 +63,4 @@ set whichwrap=b,s,h,l,<,>,[,]
 highlight ZenkakuSpace cterm=underline ctermfg=lightblue guibg=darkgray
 match ZenkakuSpace /　/
 
+
