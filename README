@@ -62,5 +62,6 @@ set whichwrap=b,s,h,l,<,>,[,]
 " 全角スペースを視覚化
 highlight ZenkakuSpace cterm=underline ctermfg=lightblue guibg=darkgray
 match ZenkakuSpace /　/
-
+" 保存時に行末スペースを削除
+autocmd BufWritePre * :%s/\s\+$//ge
 
